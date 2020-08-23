@@ -1,0 +1,128 @@
+@import '/fonts/RacingSansOne-Regular.ttf';
+@import '/fonts/OpenSans-Regular.ttf';
+@import '/fonts/Roboto-Regular.ttf';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #096db9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    height: 40px;
+    border-bottom: 1px solid white;
+
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    text-transform: uppercase;
+    padding-left: 19em;
+    float: left;
+    font-family: 'Racing Sans One';
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    height: calc(100vh - 59px);
+    width: 98.9vw;
+    background: center/cover url(/images/ferrari_supercar.jpg) fixed;
+
+}
+
+.wrapper {
+    background: rgba(0, 0, 0, .7);
+
+}
+
+.banner-desc {
+    padding-top: 15%;
+}
+
+.banner-desc,
+.down-arrow {
+    margin: 0;
+    color: white;
+    font-size: 4rem;
+    width: 98.9vw;
+    height: 45.9vh;
+}
+
+.banner-desc,
+.title,
+.down-arrow,
+footer span {
+    font-family: 'Racing Sans One', cursive;
+
+}
+
+section .title {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2rem;
+
+}
+
+.about p {
+    font: 1.5rem 'Open Sans';
+    background: white;
+    color: #096db9;
+    border-radius: 5px;
+}
+
+.box-container {
+    justify-content: center;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: auto;
+
+}
+
+.box {
+    background: white;
+    margin: 5px auto;
+    padding-bottom: 28px;
+    width: 250px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, .6);
+    -moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, .6);
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, .6);
+
+}
+
+.box-title {
+    font: 1.2rem 'Roboto Regular';
+    color: #096db9;
+
+}
+
+.box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.about .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer span {
+    color: white;
+}
