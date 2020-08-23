@@ -2,6 +2,10 @@
 @import '/fonts/OpenSans-Regular.ttf';
 @import '/fonts/Roboto-Regular.ttf';
 
+@font-face {
+  font-family: "Racing Sans One";
+  src: url("/fonts/RacingSansOne-Regular.ttf") format("truetype")
+}
 * {
     box-sizing: border-box;
 }
